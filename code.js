@@ -38,6 +38,8 @@ function desencriptar (){
 function copiar (){
     var mensajeEncriptado = inputResultado.value;
     navigator.clipboard.writeText(mensajeEncriptado);
+    inputMensaje.value = "";
+    return false
 }
 
 
